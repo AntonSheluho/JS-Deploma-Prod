@@ -1,0 +1,102 @@
+.root2 {
+    display: block;
+    position: fixed;
+    top: 165px;
+    left: 710px;
+    z-index: 11;
+}
+
+.entranceWrapperReg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;
+    position: relative;
+    background-color: rgb(207, 207, 207);
+    border-radius: 10px;
+}
+
+.backMark {
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.eye1, .eye2, .eye3, .eye4, .eye5 {
+    width: 23px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.eye1 {
+    top: 343px;
+    left: 312px;
+}
+
+.eye2 {
+    top: 416px;
+    left: 312px;
+}
+
+.nameTitle {
+    color: #585858;
+    font-size: 2rem;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.entranceName {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    width: 100%;
+}
+
+.formFactor {
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ff9800;
+    outline: none;
+}
+
+.buttonRegistration {
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.valid {
+    border: 2px solid green;
+}
+
+.noValid {
+    border: 2px solid red;
+}
+
+.invalidFormText {
+    display: none;
+    position: absolute;
+    left: 59px;
+    width: 70%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-weight: bold;
+}
+
+.invalidFormText1 {
+    top: 300px;
+}
+
+.invalidFormText2 {
+    top: 455px;
+}

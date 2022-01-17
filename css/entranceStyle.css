@@ -1,0 +1,74 @@
+.root3 {
+    display: block;
+    position: fixed;
+    top: 305px;
+    left: 720px;
+    z-index: 11;
+}
+
+.entranceWrapper {
+    width: 376px;
+    height: 288px;
+}
+
+.entranceForm {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    width: 100%;
+}
+
+.eye3 {
+    top: 111px;
+    left: 290px;
+}
+
+.backEntranceMark {
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.entranceButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.butt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 60%;
+    height: 45px;
+    font-weight: bold;
+    color: #585858;
+    cursor: pointer;
+    background-color: #ff9800;
+    box-shadow: 0px 10px 13px #795548bf;
+    transition-duration: .1s;
+}
+
+.butt:hover {
+    box-shadow: 4px 14px 17px #795548bf;
+}
+
+.butt:active {
+    box-shadow: 4px 8px 11px #795548bf;
+}
+
+.errorEntranceText {
+    color: rgb(207, 207, 207);
+}
+
+.errorActive {
+    color: red;
+    cursor: context-menu;
+}
